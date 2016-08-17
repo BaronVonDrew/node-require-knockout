@@ -1,10 +1,12 @@
-
-
-  <h1>{{title }}</h1>
-  <p>Welcome to {{title }}</p>
-	<label data-bind="text: title"/>
-  <script data-main="js/app.js" src="components/requirejs/require.js">
-</script>
+  <div class="container-fluid">
+    <div class="row" style="padding: 10px;">
+      <div class="col-lg-2 panel well" style="height: 900px; padding: 10px;">
+        <h1 style="padding: 10px;" data-bind="text: title"></h1>
+      </div>
+      <div class="col-lg-10 panel">
+      </div>
+    </div>
+  </div>
 
 <script>
 (function() {

@@ -1,7 +1,7 @@
 define(['knockout'], function(ko) {
 	function AppViewModel() {
 		self = this;
-		self.title = ko.observable("Drew's App");
+		self.title = ko.observable("Praemium");
 		}
 	return AppViewModel;
 	});
