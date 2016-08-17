@@ -1,0 +1,14 @@
+
+
+  <h1>{{title }}</h1>
+  <p>Welcome to {{title }}</p>
+	<label data-bind="text: title"/>
+  <script data-main="js/app.js" src="components/requirejs/require.js">
+</script>
+
+<script>
+(function() {
+
+require(['js/app'], function(){});
+})();
+</script>
